@@ -1,0 +1,64 @@
+﻿/* CSS Document */
+
+.arrowlistmenu{
+width: 250px; /*width of accordion menu*/
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 11pt Arial;
+color: white;
+/* background: black url(titlebar.png) repeat-x center left; */
+background-color: #666633;
+margin-bottom: 5px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 2px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border: 1px dashed #EDDEDD;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+/* background-image: url(titlebar-active.png); */
+background-color: #BFB073;
+color: #FFFFFF;
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 1px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+/* background: url(arrowbullet.png) no-repeat center left; /*custom bullet list image*/ 
+background-color: #F0F0F0;
+display: block;
+padding: 2px 0px;
+padding-left: 10pt; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: 500;
+border-bottom: 1px solid #dadada;
+font-family:Arial, Helvetica, sans-serif;
+font-size:10pt;
+border: 1px dashed #EDDEDD;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #FFFFFF;
+background-color: #FF9966;
+border: 1px dashed #EFEFEF;
+
+}
+
